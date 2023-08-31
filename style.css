@@ -1,0 +1,36 @@
+.grid {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    background-color: rgb(232, 239, 255);
+    padding: 1rem;
+    
+   }
+.tile {
+    height: 250px;
+    width: 150px;
+    background: white;
+    padding: 1.5rem;
+    display:grid;
+    justify-content: start;
+    align-items: center;
+    place-items: center;
+    border-radius: 5px;
+  }
+.icon{
+    max-width: 50px;
+    max-height:auto;
+  }
+  
+.text{
+    text-align: center;
+    padding: 10px;
+
+  }
+    
+
+  body {
+    margin: 2rem;
+    font: 12px system-ui;
+  }
