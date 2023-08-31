@@ -132,3 +132,8 @@ padding-right: 16px;
     outline: none;
     font-size: large;   
 }
+
+.titre{
+    font-size: large;
+    font-weight: bold;
+}
